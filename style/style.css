@@ -8,10 +8,14 @@
 nav  ul{
   display: flex;
   list-style: none;
- gap: 30px;
+margin-left: 50px;
+gap: 50px;
 }
 nav li > a{
    text-decoration: none;
+}
+section{
+    width: 100%;
 }
 /* main section */
 .play{
@@ -102,6 +106,7 @@ gap: 200px;
 .btn:hover{
     border: 2px solid tomato;
 }
+
 /* footer */
 .footer{
     height: 1000px;
@@ -121,13 +126,23 @@ padding: 100px;
     gap: 30px;
 
 }
+.logo{
+    height: 56px;
+    display: flex;
+   margin-left: 850px;
+   margin-top: 70px;
+   gap: 50px;
+}
+.twitter{
+    background-color: white;
+}
 .lastly{
     display: flex;
    justify-content: center;
     color: rgba(255, 255, 255, 0.60);
    gap: 30px;
    font-size: 16px;
-   margin-top: 260px;
+   margin-top: 60px;
    margin-bottom: 260px;
 }
 .last{
