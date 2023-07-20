@@ -72,11 +72,25 @@ nav li > a{
 .section-0{
     height: 500px;
 }
-.five{
+.five {
+    display: flex;
     margin-left: 100px;
     gap: 200px;
 
 }
 .four{
+display: flex;
+margin-left: 100px ;
+gap: 200px;
 
+}
+.btn{
+ display: flex;
+ border: none;
+ border-radius: 28px;
+
+    
+}
+.btn:hover{
+    border: 2px solid tomato;
 }
