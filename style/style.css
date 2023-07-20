@@ -54,3 +54,29 @@ nav li > a{
     width: auto;
     height: 400px;
 }
+/* section-3 */
+.section-3{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+.text{
+
+}
+.images-2{
+    height: 300px;
+    position: relative;
+   right: 100px;
+    
+}
+.section-0{
+    height: 500px;
+}
+.five{
+    margin-left: 100px;
+    gap: 200px;
+
+}
+.four{
+
+}
